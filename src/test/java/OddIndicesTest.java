@@ -39,14 +39,5 @@ public class OddIndicesTest {
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
 
-    @Test
-    public void oddIndicesEmptyArray() {
-        int[] array = {};
-        int[] expectedResult = {};
 
-        OddIndices oi = new OddIndices();
-        int[] actualResult = oi.oddIndices(array);
-
-        Assertions.assertArrayEquals(expectedResult, actualResult);
-    }
 }
